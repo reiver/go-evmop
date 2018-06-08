@@ -1,7 +1,5 @@
 /*
-# go-evmop
-
-Package **evmop** provides tools for turning Ethereum Virtual Machine (EVM) OpCodes into bytecodes.
+Package evmop provides tools for turning Ethereum Virtual Machine (EVM) OpCodes into bytecodes.
 
 This might be useful to someone writing an AOT or JIT compiler targeting the Ethereum Virtual Machine (EVM).
 
