@@ -20,5 +20,5 @@ type Exp struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Exp) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_EXP)
+	return writeTo(writer, CodeExp)
 }

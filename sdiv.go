@@ -20,5 +20,5 @@ type SDiv struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (SDiv) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_SDIV)
+	return writeTo(writer, CodeSDiv)
 }

@@ -20,5 +20,5 @@ type SignExtend struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (SignExtend) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_SIGNEXTEND)
+	return writeTo(writer, CodeSignExtend)
 }

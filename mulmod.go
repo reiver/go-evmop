@@ -20,5 +20,5 @@ type MulMod struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (MulMod) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_MULMOD)
+	return writeTo(writer, CodeMulMod)
 }

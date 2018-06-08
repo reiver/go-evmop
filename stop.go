@@ -20,5 +20,5 @@ type Stop struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Stop) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_STOP)
+	return writeTo(writer, CodeStop)
 }
