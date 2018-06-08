@@ -4,7 +4,7 @@ import (
 	"io"
 )
 
-// Stop represents the "STOP" Ethereum Virtual Machine (EVM) OpCode.
+// Stop represents the "STOP" OpCode in the Ethereum Virtual Machine (EVM).
 //
 // Example Usage:
 //
