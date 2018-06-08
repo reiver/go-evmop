@@ -14,7 +14,7 @@ func ExamplePush1() {
 
 	var writer io.Writer = &buffer
 
-	n, err := evmop.Push1{0x5}.WriteTo(writer)
+	n, err := evmop.Push1{0x05}.WriteTo(writer)
 	if nil != err {
 		fmt.Fprintf(os.Stderr, "Problem writing “PUSH1 0x05” to buffer.\n")
 		return
