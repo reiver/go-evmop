@@ -27,6 +27,7 @@ const (
 	CodeByte           = byte(0x1a)
 
 	CodeSHA3           = byte(0x20)
+
 	CodeAddress        = byte(0x30)
 	CodeBalance        = byte(0x31)
 	CodeOrigin         = byte(0x32)
