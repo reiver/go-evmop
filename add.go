@@ -20,27 +20,5 @@ type Add struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Add) WriteTo(writer io.Writer) (int64, error) {
 
-	const opcode = code_ADD
-
-	if nil == writer {
-		return 0, errNilWriter
-	}
-
-	var n64 int64
-
-	{
-		var b [1]byte = [1]byte{opcode}
-		p := b[:]
-
-		n, err := writer.Write(p)
-		if nil != err {
-			return n64, err
-		}
-		if 0 > n {
-			return n64, errNegativeNumberOfBytesWritten
-		}
-		n64 += int64(n)
-	}
-
-	return n64, nil
+	return writeTo(writer, code_ADD)
 }
