@@ -12,7 +12,7 @@ import (
 //	
 //	// ...
 //	
-//	n, err := evmop.Push4{ 0x01, 0x02, 0x03 }.WriteTo(w)
+//	n, err := evmop.Push4{ 0x01, 0x02, 0x03, 0x04 }.WriteTo(w)
 type Push4 struct {
 	Byte1 byte
 	Byte2 byte
