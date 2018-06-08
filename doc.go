@@ -28,7 +28,7 @@ Would be the equivalent to the following Go code using the evmop package:
 
 (Note that the code above didn't bother checking for errors. That was to make that example easier to understand. BUT YOUR CODE SHOULD HANDLE ERRORS!)
 
-At this point, writer would have had writter to it, the equivalent of:
+At this point, writer would have had written to it, the equivalent of:
 
 	[]byte{
 		0x60, 0x03, // push1 3

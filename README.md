@@ -38,7 +38,7 @@ evmop.Mul{}.WriteTo(writer)
 
 (Note that the code above didn't bother checking for errors. That was to make that example easier to understand. **BUT YOUR CODE SHOULD HANDLE ERRORS!**) 
 
- At this point, writer would have had writter to it, the equivalent of: 
+ At this point, writer would have had written to it, the equivalent of:
 ```go
 []byte{
 	0x60, 0x03, // push1 3
