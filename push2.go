@@ -23,5 +23,8 @@ type Push2 struct {
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (receiver Push2) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, CodePush2, receiver.Byte1, receiver.Byte2)
+	return writeTo(writer, CodePush2,
+		receiver.Byte1,
+		receiver.Byte2,
+	)
 }
