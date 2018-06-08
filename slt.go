@@ -20,5 +20,5 @@ type SLT struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (SLT) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_SLT)
+	return writeTo(writer, CodeSLT)
 }

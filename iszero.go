@@ -20,5 +20,5 @@ type IsZero struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (IsZero) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_ISZERO)
+	return writeTo(writer, CodeIsZero)
 }

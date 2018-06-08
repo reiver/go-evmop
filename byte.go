@@ -20,5 +20,5 @@ type Byte struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Byte) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_BYTE)
+	return writeTo(writer, CodeByte)
 }

@@ -20,5 +20,5 @@ type Eq struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Eq) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_EQ)
+	return writeTo(writer, CodeEq)
 }

@@ -20,5 +20,5 @@ type Xor struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Xor) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_XOR)
+	return writeTo(writer, CodeXor)
 }

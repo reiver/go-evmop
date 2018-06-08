@@ -20,5 +20,5 @@ type Not struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Not) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_NOT)
+	return writeTo(writer, CodeNot)
 }
