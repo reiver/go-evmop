@@ -20,5 +20,5 @@ type SHA3 struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (SHA3) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_SHA3)
+	return writeTo(writer, CodeSHA3)
 }

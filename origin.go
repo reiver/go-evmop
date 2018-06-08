@@ -20,5 +20,5 @@ type Origin struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Origin) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_ORIGIN)
+	return writeTo(writer, CodeOrigin)
 }

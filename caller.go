@@ -20,5 +20,5 @@ type Caller struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (Caller) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_CALLER)
+	return writeTo(writer, CodeCaller)
 }

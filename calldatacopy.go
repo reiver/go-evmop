@@ -20,5 +20,5 @@ type CallDataCopy struct {}
 // WriteTo makes this struct fit the io.WriterTo interface.
 func (CallDataCopy) WriteTo(writer io.Writer) (int64, error) {
 
-	return writeTo(writer, code_CALLDATACOPY)
+	return writeTo(writer, CodeCallDataCopy)
 }
