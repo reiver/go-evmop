@@ -44,12 +44,12 @@ const (
 	CodeReturnDataSize = byte(0x3d)
 	CodeReturnDataCopy = byte(0x3e)
 
-	code_BLOCKHASH      = byte(0x40)
-	code_COINBASE       = byte(0x41)
-	code_TIMESTAMP      = byte(0x42)
-	code_NUMBER         = byte(0x43)
-	code_DIFFICULTY     = byte(0x44)
-	code_GASLIMIT       = byte(0x45)
+	CodeBlockhash      = byte(0x40)
+	CodeCoinbase       = byte(0x41)
+	CodeTimestamp      = byte(0x42)
+	CodeNumber         = byte(0x43)
+	CodeDifficulty     = byte(0x44)
+	CodeGasLimit       = byte(0x45)
 
 	code_POP            = byte(0x50)
 	code_MLOAD          = byte(0x51)
