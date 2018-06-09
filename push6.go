@@ -4,7 +4,7 @@ import (
 	"io"
 )
 
-// Push6 represents the "PUSH5" OpCode in the Ethereum Virtual Machine (EVM).
+// Push6 represents the "PUSH6" OpCode in the Ethereum Virtual Machine (EVM).
 //
 // Example Usage:
 //
