@@ -4,7 +4,7 @@ import (
 	"io"
 )
 
-// Push12 represents the "PUSH11" OpCode in the Ethereum Virtual Machine (EVM).
+// Push12 represents the "PUSH12" OpCode in the Ethereum Virtual Machine (EVM).
 //
 // Example Usage:
 //
