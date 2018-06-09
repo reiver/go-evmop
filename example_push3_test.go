@@ -16,7 +16,7 @@ func ExamplePush3() {
 
 	n, err := evmop.Push3{0x05, 0x07, 0x09}.WriteTo(writer)
 	if nil != err {
-		fmt.Fprintf(os.Stderr, "Problem writing “PUSH2 0x05 0x07 0x09” to buffer.\n")
+		fmt.Fprintf(os.Stderr, "Problem writing “PUSH3 0x05 0x07 0x09” to buffer.\n")
 		return
 	}
 
