@@ -137,12 +137,12 @@ const (
 	CodeLog3           = byte(0xa3)
 	CodeLog4           = byte(0xa4)
 
-	code_CREATE         = byte(0xf0)
-	code_CALL           = byte(0xf1)
-	code_CALLCODE       = byte(0xf2)
-	code_RETURN         = byte(0xf3)
-	code_DELEGATECALL   = byte(0xf4)
-	code_CALLBLACKBOX   = byte(0xf5)
+	CodeCreate         = byte(0xf0)
+	CodeCall           = byte(0xf1)
+	CodeCallCode       = byte(0xf2)
+	CodeReturn         = byte(0xf3)
+	CodeDelegateCall   = byte(0xf4)
+	CodeCallBlackBox   = byte(0xf5)
 
 	code_STATICCALL     = byte(0xfa)
 
