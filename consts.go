@@ -96,7 +96,6 @@ const (
 	CodePush30         = byte(0x5f + 30)
 	CodePush31         = byte(0x5f + 31)
 	CodePush32         = byte(0x5f + 32)
-	CodePush33         = byte(0x5f + 33)
 
 	code_LOG0           = byte(0xa0)
 	code_LOG1           = byte(0xa1)
