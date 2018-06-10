@@ -131,11 +131,11 @@ const (
 	CodeSwap15         = byte(0x8f + 15)
 	CodeSwap16         = byte(0x8f + 16)
 
-	code_LOG0           = byte(0xa0)
-	code_LOG1           = byte(0xa1)
-	code_LOG2           = byte(0xa2)
-	code_LOG3           = byte(0xa3)
-	code_LOG4           = byte(0xa4)
+	CodeLog0           = byte(0xa0)
+	CodeLog1           = byte(0xa1)
+	CodeLog2           = byte(0xa2)
+	CodeLog3           = byte(0xa3)
+	CodeLog4           = byte(0xa4)
 
 	code_CREATE         = byte(0xf0)
 	code_CALL           = byte(0xf1)
