@@ -144,9 +144,9 @@ const (
 	CodeDelegateCall   = byte(0xf4)
 	CodeCallBlackBox   = byte(0xf5)
 
-	code_STATICCALL     = byte(0xfa)
+	CodeStaticCall     = byte(0xfa)
 
-	code_REVERT         = byte(0xfd)
+	CodeRevert         = byte(0xfd)
 
-	code_SUICIDE        = byte(0xff)
+	CodeSuicide        = byte(0xff)
 )
